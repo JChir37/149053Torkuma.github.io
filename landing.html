@@ -162,7 +162,105 @@
 												<h3>WEEK 3 - 5</h3>
 											</header>
 											<h2>Cyber Kill Chain</h2>
-											<img src="images/itec442.docx" width="100%" height="650px" frameborder="0">
+											<p>The cyber kill chain is a methodology for analyzing and understanding the stages of a cyber attack. It consists of seven stages:</p>
+											1 Reconnaissance: The attacker gathers information about the target.
+											<br>2 Weaponization: The attacker prepares the exploit or payload.
+											</br><br>3 Delivery: The exploit or payload is delivered to the target.
+											</br><br>4 Exploitation: The exploit or payload is used to gain access to the target.
+											</br><br>5 Installation: The attacker installs tools or malware on the target to maintain access.
+											</br><br>6 Command and control: The attacker establishes a connection to the target to send commands and receive data.
+											</br><br>7 Actions on objectives: The attacker carries out their ultimate goal, such as stealing data or disrupting systems.
+
+											<p>Here is a table that analyzes the SolarWinds exploit using the cyber kill chain:</p>
+
+											<div class="table-wrapper">
+														<table class="alt">
+															<thead>
+																<tr>
+																	<th>Stage of Attack</th>
+																	<th>Description</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>Reconnaissance</td>
+																	<td>The attackers likely conducted extensive reconnaissance to identify and target organizations using the SolarWinds Orion software.</td>
+																</tr>
+																<tr>
+																	<td>Weaponization</td>
+																	<td>The attackers modified the SolarWinds software update process to include a malicious component called Sunburst.</td>
+																</tr>
+																<tr>
+																	<td>Delivery</td>
+																	<td>The attackers delivered the modified software update to the targeted organizations through the normal update process.</td>
+																</tr>
+																<tr>
+																	<td>Exploitation</td>
+																	<td>The Sunburst component was activated when the software was installed and allowed the attackers to gain access to the target's network.</td>
+																</tr>
+																<tr>
+																	<td>Installation</td>
+																	<td>The attackers installed additional malware on the target's network to maintain access and avoid detection.</td>
+																</tr>
+																<tr>
+																	<td>Command and control</td>
+																	<td>The attackers established a connection to the target's network to send commands and receive data.</td>
+																</tr>
+																<tr>
+																	<td>Actions on objectives</td>
+																	<td>The attackers conducted extensive activity on the target's network, including stealing data and disrupting systems.</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+
+<p>Here are some possible mitigations for each stage of the cyber kill chain:</p>
+
+1 Reconnaissance:<br>
+• Implement network segmentation to limit the attacker's visibility and access.
+• Use security tools such as intrusion detection and prevention systems (IDPS) to monitor network activity and alert on suspicious behavior.
+• Conduct regular vulnerability assessments to identify and address weaknesses.
+
+</br><br>2 Weaponization:<br>
+• Implement security controls to block the use of malicious tools or software.
+• Use application whitelisting to allow only trusted programs to execute.
+
+</br><br>3 Delivery:<br>
+• Use email and web filtering to block suspicious or malicious links and attachments.
+• Implement multi-factor authentication to make it more difficult for attackers to gain access to accounts.
+
+</br><br>4 Exploitation:<br>
+• Patch vulnerabilities promptly to prevent exploits from being successful.
+• Use security tools such as firewalls and IDPS to block known exploits.
+
+</br><br>5 Installation:<br>
+• Use security tools such as anti-malware software to detect and remove malware.
+• Implement network segmentation to limit the spread of malware.
+
+</br><br>6 Command and control:<br>
+• Monitor network activity for signs of command and control traffic.
+• Use security tools such as firewalls and IDPS to block known command and control traffic.
+
+</br><br>7 Actions on objectives:<br>
+• Implement data loss prevention (DLP) controls to prevent sensitive data from being exfiltrated.
+• Use security tools such as IDPS to monitor for unusual activity or behavior that may indicate an attack is in progress.
+</br>
+<p>Here are some tools that could be utilized in each phase of the cyber kill chain:	</p>
+
+1 Reconnaissance: Network scanning tools, such as Nmap, can be used to gather information about the target's network and identify vulnerabilities.
+
+<br>2 Weaponization: Malware development tools, such as Metasploit, can be used to create exploits and payloads.
+
+</br><br>3 Delivery: Attackers may use phishing tools, such as SpearPhisher, to deliver malicious links or attachments to the target.
+
+</br><br>4 Exploitation: Vulnerability scanners, such as Nessus, can be used to identify and exploit vulnerabilities in the target's system.
+
+</br><br>5 Installation: Malware droppers, such as Cobalt Strike, can be used to install malware on the target's system.
+
+</br><br>6 Command and control: Attackers may use remote access tools, such as TeamViewer, to establish a connection to the target and send commands.
+
+</br><br>7 Actions on objectives: Attackers may use a variety of tools, such as data exfiltration tools or ransomware, to carry out their ultimate goal.</br>
+
 										</div>
 									</div>
 								</section>
